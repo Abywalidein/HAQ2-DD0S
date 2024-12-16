@@ -38,6 +38,7 @@ def log_attack_status(message, level='info', print_to_terminal=True):
 # Fungsi untuk Menampilkan Header HUDAIRUL-AQSHA dengan Warna
 def display_header():
     header_lines = [
+    f"{Fore.RED}                                                                     ",
     f"{Fore.RED}  ██▒▒      ██▒▒            ██▒██▒▒                 ██▒██▒▒      ",
     f"{Fore.RED}  ██▒▒      ██▒▒          ██▒▒   ██▒▒            ██▒▒    ██▒▒   ",
     f"{Fore.RED}  ██▒▒      ██▒▒         ██▒▒     ██▒▒          ██▒▒      ██▒▒   ",
@@ -47,6 +48,7 @@ def display_header():
     f"{Fore.BLUE}  ██▒▒      ██▒▒         ██▒██▒██▒██▒▒          ██▒▒  ██▒▒██▒▒   ",
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒     ██▒▒  ██▒▒    ██▒▒    ██▒▒     ",
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒     ██▒▒  ██▒▒       ██▒██▒▒██▒▒  ",
+    f"{Fore.BLUE}                                                                       ",
     ]
     # Tampilkan header dengan warna
     for line in header_lines:
