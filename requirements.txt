@@ -1,0 +1,6 @@
+requests
+asyncio
+datetime
+validators
+colorama
+httpx
