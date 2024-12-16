@@ -47,7 +47,8 @@ def display_header():
     f"{Fore.BLUE}  ██▒▒      ██▒▒         ██▒██▒████▒▒          ██▒▒  ██▒▒██▒▒   ",
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒  ██▒▒     ██▒▒  ██▒▒    ██▒▒    ██▒▒     ",
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒  ██▒▒     ██▒▒  ██▒▒       ██▒██▒▒██▒▒  ",
-# Tampilkan header dengan warna
+    ]
+    # Tampilkan header dengan warna
     for line in header_lines:
         print(line)
 
