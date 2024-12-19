@@ -50,8 +50,7 @@ def display_header():
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒     ██▒▒  ██▒▒       ██▒██▒▒██▒▒  ",
     f"{Fore.BLUE}                                                                       ",
     ]
-
-  # Password authentication function
+# Password authentication function
 def authenticate():
     password = "6453"  # The password to access the tool
     user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
@@ -81,9 +80,9 @@ def countdown(t):
         if remaining_time > 1:
             time.sleep(1),
             stdout.flush()
-            stdout.write(f"\r{Fore.BLUE}|  [*] {Fore.YELLOW}HUDAIRUL AQSHA {Fore.WHITE} Attack'ts  {Fore.RED}{remaining_time:.2f}  {Fore.BLUE}CYBER POEOPLE {' ' * 26}|")
-            stdout.write(f"\r{Fore.YELLOW}|  [*] {Fore.CYAN}HUDAIRUL AQSHA {Fore.RED} Attack'ts  {Fore.GREEN}{remaining_time:.2f}  {Fore.MAGENTA}CYBER PEOPLE {' ' * 26}|")
-            stdout.write(f"\r{Fore.RED}|  [*] {Fore.YELLOW}חודאירול אקשה  {Fore.CYAN}התקפה נעשתה!{' ' * 53}|\n")
+            stdout.write(f"\r{Fore.BLUE}|  [*] {Fore.YELLOW}HUDAIRUL AQSHA {Fore.WHITE}FOR THE INDEPENDENCE OF PALESTINE  {Fore.RED}{remaining_time:.2f}  {Fore.BLUE}CAT {' ' * 26}|")
+            stdout.write(f"\r{Fore.YELLOW}|  [*] {Fore.CYAN}HUDAIRUL AQSHA {Fore.RED}FOR THE INDEPENDENCE OF PALESTINE  {Fore.GREEN}{remaining_time:.2f}  {Fore.MAGENTA}CAT {' ' * 26}|")
+            stdout.write(f"\r{Fore.RED}|  [*] {Fore.YELLOW}חודאירול אקשה  {Fore.CYAN}אין עזרה הטובה ביותר מלבד עזרת ה{' ' * 53}|\n")
         else:
             stdout.flush()
             stdout.write(f"\r{Fore.RED}|  [*]  {Fore.YELLOW}חודאירול אקשה    {Fore.CYAN}התקפה נעשתה!{' ' * 53}|\n")
