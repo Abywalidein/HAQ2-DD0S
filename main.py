@@ -50,14 +50,7 @@ def display_header():
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒     ██▒▒  ██▒▒       ██▒██▒▒██▒▒  ",
     f"{Fore.BLUE}                                                                       ",
     ]
-# Password authentication function
-def authenticate():
-    password = "6453"  # The password to access the tool
-    user_password = getpass.getpass(prompt={Fore.WHITE}Enter the password to access the tool:{' ' * 26}|")
-    if user_password != password:
-        print(f"{Fore.BLUE}Incorrect password. Exiting{' ' * 26}|")
-        exit()
-    # Tampilkan header dengan warna
+  # Tampilkan header dengan warna
     for line in header_lines:
         print(line)
 
