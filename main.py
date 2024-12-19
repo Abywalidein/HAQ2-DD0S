@@ -82,7 +82,7 @@ def countdown(t):
             stdout.flush()
             stdout.write(f"\r{Fore.BLUE}|  [*] {Fore.YELLOW}HUDAIRUL AQSHA {Fore.WHITE}FOR THE INDEPENDENCE OF PALESTINE  {Fore.RED}{remaining_time:.2f}  {Fore.BLUE}CAT {' ' * 26}|")
             stdout.write(f"\r{Fore.YELLOW}|  [*] {Fore.CYAN}HUDAIRUL AQSHA {Fore.RED}FOR THE INDEPENDENCE OF PALESTINE  {Fore.GREEN}{remaining_time:.2f}  {Fore.MAGENTA}CAT {' ' * 26}|")
-            stdout.write(f"\r{Fore.RED}|  [*] {Fore.YELLOW}חודאירול אקשה {Fore.CYAN}אין עזרה הטובה ביותר מלבד עזרת ה{' ' * 53}\n")
+            stdout.write(f"\r{Fore.RED}|  [*] {Fore.YELLOW}חודאירול אקשה {Fore.CYAN}אין עזרה הטובה ביותר מלבד עזרת ה{' ' * 53}|\n")
         else:
             stdout.flush()
             stdout.write(f"\r{Fore.RED}|  [*]  {Fore.YELLOW}חודאירול אקשה    {Fore.CYAN}התקפה נעשתה!{' ' * 53}|\n")
