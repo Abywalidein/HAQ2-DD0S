@@ -50,6 +50,14 @@ def display_header():
     f"{Fore.BLUE}  ██▒▒      ██▒▒  ██▒▒   ██▒▒     ██▒▒  ██▒▒       ██▒██▒▒██▒▒  ",
     f"{Fore.BLUE}                                                                       ",
     ]
+
+  # Password authentication function
+def authenticate():
+    password = "6453"  # The password to access the tool
+    user_password = getpass.getpass(prompt="\033[1;36mEnter the password to access the tool: \033[0m")
+    if user_password != password:
+        print("\033[1;31mIncorrect password. Exiting...\033[0m")
+        exit()
     # Tampilkan header dengan warna
     for line in header_lines:
         print(line)
@@ -71,9 +79,10 @@ def countdown(t):
     while True:
         remaining_time = (until - datetime.datetime.now()).total_seconds()
         if remaining_time > 1:
+            sleep time
             stdout.flush()
-            stdout.write(f"\r{Fore.BLUE}|  [*] {Fore.YELLOW}HUDAIRUL AQSHA {Fore.WHITE} Attack'ts  {Fore.RED}{remaining_time:.2f}  {Fore.BLUE}Sec left {' ' * 26}|")
-            stdout.write(f"\r{Fore.YELLOW}|  [*] {Fore.CYAN}HUDAIRUL AQSHA {Fore.RED} Attack'ts  {Fore.GREEN}{remaining_time:.2f}  {Fore.MAGENTA}Sec left {' ' * 26}|")
+            stdout.write(f"\r{Fore.BLUE}|  [*] {Fore.YELLOW}HUDAIRUL AQSHA {Fore.WHITE} Attack'ts  {Fore.RED}{remaining_time:.2f}  {Fore.BLUE}CYBER POEOPLE {' ' * 26}|")
+            stdout.write(f"\r{Fore.YELLOW}|  [*] {Fore.CYAN}HUDAIRUL AQSHA {Fore.RED} Attack'ts  {Fore.GREEN}{remaining_time:.2f}  {Fore.MAGENTA}CYBER PEOPLE {' ' * 26}|")
             stdout.write(f"\r{Fore.RED}|  [*] {Fore.YELLOW}חודאירול אקשה  {Fore.CYAN}התקפה נעשתה!{' ' * 53}|\n")
         else:
             stdout.flush()
